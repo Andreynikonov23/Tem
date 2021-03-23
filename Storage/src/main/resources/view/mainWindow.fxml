@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="580.0" prefWidth="798.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.controller.Controller">
+   <children>
+      <TableView fx:id="tableView" layoutX="14.0" layoutY="14.0" prefHeight="513.0" prefWidth="768.0">
+        <columns>
+          <TableColumn fx:id="columnId" prefWidth="19.0" text="ID" />
+          <TableColumn fx:id="columnName" prefWidth="193.0" text="Name" />
+            <TableColumn fx:id="columnManufacturer" prefWidth="199.0" text="Manufacturer" />
+            <TableColumn fx:id="columnDescription" prefWidth="197.0" text="Description" />
+            <TableColumn fx:id="columnQuantity" prefWidth="58.0" text="Quantity" />
+            <TableColumn fx:id="columnCost" prefWidth="101.0" text="Cost" />
+        </columns>
+      </TableView>
+      <Button fx:id="buttonNew" layoutX="39.0" layoutY="541.0" mnemonicParsing="false" onAction="#onActionNew" text="New" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="271.0" prefWidth="412.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.controller.AddController">
+   <children>
+      <TextField fx:id="textFieldName" layoutX="132.0" layoutY="35.0" />
+      <TextField fx:id="textFieldManufacturer" layoutX="132.0" layoutY="60.0" />
+      <TextField fx:id="textFieldDescription" layoutX="132.0" layoutY="85.0" />
+      <TextField fx:id="textFieldQuantity" layoutX="132.0" layoutY="110.0" />
+      <TextField fx:id="textFieldCost" layoutX="132.0" layoutY="135.0" />
+      <Button fx:id="buttonAdd" layoutX="180.0" layoutY="214.0" mnemonicParsing="false" onAction="#onActionAdd" text="Add" />
+      <Label layoutX="81.0" layoutY="39.0" text="Name" />
+      <Label layoutX="45.0" layoutY="64.0" text="Manufacturer" />
+      <Label layoutX="59.0" layoutY="89.0" text="Description" />
+      <Label layoutX="74.0" layoutY="114.0" text="Quantity" />
+      <Label layoutX="85.0" layoutY="139.0" text="Cost" />
+   </children>
+</AnchorPane>
